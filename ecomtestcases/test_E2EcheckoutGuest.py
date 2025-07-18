@@ -28,5 +28,5 @@ class TestAddToCart:
         # verify order is received
         self.guest_checkout.guest_verify_order_received()
 
-    # def teardown_class(self):
-    #     self.driver.quit()
+    def teardown_class(self):
+        self.driver.quit()
